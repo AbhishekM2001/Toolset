@@ -8,19 +8,34 @@
     /* padding: 70px; */
 }
 
+#clock
+{
+  position: relative;
+  left: 250px;
+}
+
+.calculator
+{
+  position: relative;
+  left: 100px;
+  border: 3px double black;
+  /* width: 300px; */
+}
+
 #container
 {
     height:400px;
     background-color: aqua;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 h2
 {
     padding: 20px;
     text-align: center;
-    background-color: #2138b9a6;
+    background-color: #505050;
+    color: #ffa500;
     margin: 0px;
 }
 
@@ -64,11 +79,11 @@ button {
   :root {
     font-family: Helvetica, Arial, sans-serif;
   }
-
+/* 
   .container {
-    max-width: 20em;
+    width: 20em;
   }
-  
+   */
   .container > p {
     text-align: center;
   }
