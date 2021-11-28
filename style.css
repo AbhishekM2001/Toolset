@@ -36,12 +36,12 @@ h2
     text-align: center;
     background-color: #505050;
     color: #ffa500;
-    margin: 0px;
+    margin: 5px;
 }
 
 body
 {
-    background-color: lightskyblue;
+    background-color: rgb(80,80,80);
     margin: 0px;
 }
 
